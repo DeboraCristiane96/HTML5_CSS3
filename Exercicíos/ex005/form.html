@@ -1,0 +1,45 @@
+<h1> Formulário </h1>
+<!--Para onde vai ser enviado o formulario-->
+<form action = "https://formspree.io/f/mnqrvvdl" method = "POST">
+    <p> Digite seu nome </p>
+    
+    <p>
+         <input placeholder = "Digite seu nome" type = "text" required = "required" name = "name" />
+    </p>
+    
+    <p>
+        <label>Digite uma mesagem<label><br>
+            <textarea rows = "10" cols = 15 name = "mesagem" required placeholder = "Deixe um recado!"></textarea>
+    </p>
+
+    <p>
+        <label>Gostaria de Estudar:<label><br>
+        <ul>
+            <il><input value = "SIM" name = "HTML" type = "checkbox">HTML</il><br>
+            <il><input value = "SIM" name = "CSS" type = "checkbox">CSS</il><br>
+            <il><input value = "SIM" name = "JavaScript" type = "checkbox">JavaScript</il><br>
+        </ul> 
+    </p>
+    <p>
+        <label>Escolha uma Linguagem:</label><br>
+        <ul>
+            <il><input value ="Java"  name = Java type = "radio">Java</il>
+            <il><input value = "python" name = Python type = "radio">Python</il>
+        </ul>
+
+    </p>
+    <p>
+        <label>Qual a sua cidade?</label><br>
+        <select>
+            <option>Sertânia</option>
+            <option>Arcoverde</option>
+            <option>Monteiro</option>
+            <option>Campina Grande</option>
+        </select>
+    </p>
+    <p><label>Tremos de Uso</label><br>
+        <input checked = "checked" value = "SIM"name = "termosDoContrato" type = "checkbox"> Eu aceito os termos de uso do site 
+    </p>
+    
+    <button type = "submit"> Enviar </button>
+</form>
