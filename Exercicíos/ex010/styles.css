@@ -1,19 +1,26 @@
 *{
-    margin: 0;
-    padding: 0;
-    border:0;
+    margin:0;
+    padding:0;
+    border: 0;
+  
 }
-body , html{
 
-    font-family: Arial, sans-serif;
+header{ 
+
+    background-color :rgb(13,23,33);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 header h1{
 
-    background-color:#72cce2;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: sans-serif;
-    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-size: 70px;
 }
 header p{
 
@@ -22,63 +29,20 @@ header p{
     font-size: 25px;
     color: #FFC0C7;
 }
-.container{
+header a{
 
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    background-color: #111;
-    
+    color:white;
+    font-size: 25px;
+
 }
-.title{
+header a:hover{
 
-    font-family: Arial, sans-serif;
-    display: block;
-    font-size: 15px;
-    line-height: 1.2;
-    text-align: top;
-    top: 25px; 
-    border-width: 20px;
-   
-   
+    color: aquamarine;
 }
-.title h1,h2{
-
-    margin:0;
-    color: #6a7dfe;
-}
-.txt{
-
-    font-size: 14px;
-    color: #6a7dfe;
-    line-height: 1.2;
-    text-decoration: none;
-}
-.txt_title{
-
-    font-family: Arial, sans-serif;
-    display: block;
-    font-size: 15px;
-    line-height: 2.5;
-    color: #643477;
-    text-align: center;
-    top: 10px;
-    line-height: 2.0;
-    padding-right: 10px;
-    text-decoration: center;
- }
-
- .sideBar{
-    width: 350;
- }
- .sectionHTML{
+.sectionHTML{
 
     background-color:#773617;
-    width:900px;
-    height: 700%;
+    height: 500%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -98,8 +62,7 @@ header p{
 .sectionCSS{
 
     background-color:#72cce2;
-    width:900px;
-    height: 700%;
+    height: 500%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -120,8 +83,7 @@ header p{
 .sectionJS{
 
     background-color:#ece46d;
-    width:900px;
-    height: 700%;
+    height: 500%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -150,6 +112,7 @@ header p{
 }
 .allBtnsHTML{
     
+   
     background:-webkit-linear-gradient(to left, #212323,#a31818);
     background:-o-linear-gradient(to left, #212323,#a31818);
     background:-moz-linear-gradient(to left, #212323,#a31818);
@@ -158,11 +121,11 @@ header p{
 }
 .allBtnsCSS{
 
-    background:-webkit-linear-gradient(to left, #212323,#6a7dfe);
-    background:-o-linear-gradient(to left, #212323,#6a7dfe);
-    background:-moz-linear-gradient(to left, #212323,#6a7dfe);
+    background:-webkit-linear-gradient(to left, #212323,#5193a3);
+    background:-o-linear-gradient(to left, #212323,#5193a3);
+    background:-moz-linear-gradient(to left, #212323,#5193a3);
     background:linear-gradient(to left, #212323,
-    #6a7dfe);
+    #5193a3);
 
 }
 .allBtnsJS{
@@ -187,7 +150,6 @@ header p{
     margin-top: 190px;   
     height: 400px;
 }
-
 .rodape{
 
     font-family: Arial, sans-serif;
@@ -206,15 +168,17 @@ header p{
 .links{
 
     font-size: 14px;
+    color: #7f8ad6;
     line-height: 1.5;
+
 }
+
 .links ul{
     list-style: none;
 }
 
 .links ul a{
-
-    color: #7f8ad6;
-    text-decoration:none;
+    color:rgb(47, 7, 36);
+    text-decoration: none;
     
 }

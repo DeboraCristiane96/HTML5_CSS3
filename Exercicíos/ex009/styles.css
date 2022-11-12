@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border:0;
+    background-color: #7f8ad6;
+}
+.link a:hover{    
+
+    font-size: 14px;
+    color: #666466;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-bottom:40px;
+    text-align: center;
+}
+.container{
+    border-top: 20px;
+    
+}
+
+h1{
+    background-color:#72cce2;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.container h2 {
+
+    color: #111;
+    margin-top: 50px;
+    margin-bottom:30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+.txt{
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 70%;
+    margin-left: 120px;
+    text-align: center;
+}
+.link{
+    text-align: center; 
+}
