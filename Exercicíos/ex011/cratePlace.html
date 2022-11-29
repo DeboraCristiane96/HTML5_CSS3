@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SAPE</title>
+</head>
+<body>
+    <div class="container">
+        <form id="homePage2">
+            <h3>Cadastro de Local</h3>
+            <h1>Cadastre um Local!</h1>
+            <h2>Para cadastrar um local digite o nome dele e dê um local de referência, informe a capacidade máxima de pessoas que o loval suporta e se ele é público ou não e o nome do responsável pelo local.</h3>
+            <label id="lab01">Nome do Local</label><br>
+            <input type = "text" id="input01" name="nome">
+            <br>
+            <label id="lab02">Local de Refência</label><br>
+            <input type = "text" id="input02" name="nomeRef">
+            <br>
+            <label id="lab03">Quantidade Máxima de Pessoas</label><br>
+            <input type = "text" id="input03" name="qntMax">
+            <br>
+            <label id="lab04">O Local é Público</label><br>
+            <input type = "radio" id="input04" name="sim"><label id="lab05">Sim</label>
+            <input type = "radio" id="input05" name="nao"><label id="lab06">Não</label>
+            <br>
+            <label id="lab07">Nome do Responsável pelo Local</label><br>
+            <input type = "text" id="input06" name="nomeRes">
+            <button type="button" id="btn-btn-primary" onClick={this.registerPractice} >Cadastrar</button>  
+            <button type="button" id="btn-cancel" onClick={this.registerPractice} >Cancelar</button>  
+        </form>
+    </div>
+</body>
+</html>
