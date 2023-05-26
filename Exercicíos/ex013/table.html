@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5c8ae45cca.js" crossorigin="anonymous"></script>
+    <title>Tabelas em HTML</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                 <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <menu>
+        <h1>Tabelas no HTML</h1>
+        <section id="estudantes">
+            <h2>Tabela de Estudantes</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Daniel Santos</td>
+                        <td>daniel@gmail.com</td>
+                        <td>201925009087</td>
+                    </tr>
+                    <tr>
+                        <td>Danilo Alves</td>
+                        <td>danilo@gmail.com</td>
+                        <td>201932009087</td>
+                    </tr>
+                    <tr>
+                        <td>Vanessa Dantas</td>
+                        <td>VanessaDantas@gmail.com</td>
+                        <td>201925009090</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </section>
+        <section id="financas">
+            <h2>Tabela de Controle financeiro</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">04/09/23</td>
+                        <td colspan="2">Despeza</td>
+                        <td>35,90</td>
+                    </tr>
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>3.798,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </menu>
+    <footer>2023</footer>
+</body>
+</html>
